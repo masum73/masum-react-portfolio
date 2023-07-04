@@ -108,7 +108,7 @@ const Banner = () => {
                     <span style={{ color: 'blue', fontWeight: 'bold' }}>
                         {/* Style will be inherited from the parent element */}
                         <Typewriter
-                            words={['SQA Engineer', 'React Front-end Developer', 'Freelancer']}
+                            words={['SQA Engineer', 'MERN Developer', 'Freelancer']}
                             loop={1/0}
                             cursor
                             cursorStyle='_'
