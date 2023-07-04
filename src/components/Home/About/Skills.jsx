@@ -13,9 +13,7 @@ const Skills = () => {
         {
             label: "Testing",
             value: "testing",
-            desc: `It really matters and then like it really doesn't matter.
-          What matters is the people who are sparked by it. And the people 
-          who are like offended by it, it doesn't matter.`,
+            desc: <p>Testing : </p>,
         },
         {
             label: "Front-End",
@@ -50,7 +48,7 @@ const Skills = () => {
             <Typography className='my-8 text-center' variant="h3" color="blue" textGradient>
                 My Skills
             </Typography>
-            <Tabs value="html">
+            <Tabs value="testing">
                 <TabsHeader>
                     {data.map(({ label, value }) => (
                         <Tab key={value} value={value}>
@@ -60,7 +58,7 @@ const Skills = () => {
                 </TabsHeader>
                 <TabsBody>
                     {data.map(({ value, desc }) => (
-                        <TabPanel key={value} value={value}>
+                        <TabPanel key={value} value={value} >
                             {desc}
                         </TabPanel>
                     ))}
