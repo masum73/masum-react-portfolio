@@ -34,7 +34,7 @@ const Banner = () => {
                         enable: false,
                         zIndex: 1
                     },
-                    fpsLimit: 120,
+                    fpsLimit: 30,
                     interactivity: {
                         events: {
                             onClick: {
@@ -49,7 +49,7 @@ const Banner = () => {
                         },
                         modes: {
                             push: {
-                                quantity: 4,
+                                quantity: 2,
                             },
                             repulse: {
                                 distance: 200,
@@ -86,7 +86,7 @@ const Banner = () => {
                                 enable: true,
                                 area: 800,
                             },
-                            value: 80,
+                            value: 50,
                         },
                         opacity: {
                             value: 0.5,
