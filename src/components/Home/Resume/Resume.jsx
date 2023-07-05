@@ -4,128 +4,108 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 import { MdWork, MdWorkHistory } from "react-icons/md";
 import { IoSchoolSharp } from "react-icons/io5";
+import { PiCertificate } from "react-icons/pi";
 const Resume = () => {
     return (
-        <div className='mx-auto '>
+        <div id='resume' className='mx-auto '>
             <Typography className='my-8 text-center' variant="h3" color="blue" textGradient>
                 Resume
             </Typography>
-            <Button color='indigo' className='flex justify-center items-center mx-auto my-8' ripple={true}>Download</Button>
+            <Button onClick={() => window.location.href = 'https://drive.google.com/uc?id=1pEm4RYDCoM86gCvtFrq7XdhJVoK_KxbM&export=download'} color='indigo' className='flex justify-center items-center mx-auto my-8' ripple={true}>Download</Button>
 
-            <div className='px-5' style={{backgroundColor: "#808080"}}>
+            <div className='px-5' style={{ backgroundColor: "#808080" }}>
                 <VerticalTimeline>
 
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
                         contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                        date="2011 - present"
-                        // dateClassName='text-indigo-800 m-0 p-0 font-semibold text-3xl'
+                        date="Feb 2021 - present"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         icon={<MdWork />}
                     >
-                        <h3 className="vertical-timeline-element-title">Creative Director</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+                        <h3 className="vertical-timeline-element-title">Software Quality Assurance Engineer</h3>
+                        <h4 className="vertical-timeline-element-subtitle">ReliSource Technologies LTD, Gulshan, Dhaka</h4>
                         <p>
-                            Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+                            Working on a Financial Project in Web
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        // contentStyle={{ background: 'gray', color: '#fff' }}
-                        date="2010 - 2011"
+                        date="Sept 2020 - Feb 2021"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         icon={<MdWorkHistory />}
                     >
-                        <h3 className="vertical-timeline-element-title">Art Director</h3>
-                        <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+                        <h3 className="vertical-timeline-element-title">Quality Assurance Engineer</h3>
+                        <h4 className="vertical-timeline-element-subtitle">Beyond Innovations & Technologies Limited, Banani, Dhaka</h4>
                         <p>
-                            Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+                            Worked on HealthCare, Social Projects in Android and IOS Apps
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--work"
-                        // contentStyle={{ background: 'gray', color: '#fff' }}
-                        date="2010 - 2011"
+                        date="Oct 2019 - Jan 2020"
                         iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         icon={<MdWorkHistory />}
                     >
-                        <h3 className="vertical-timeline-element-title">Art Director</h3>
-                        <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
+                        <h3 className="vertical-timeline-element-title">
+                            Information Technology Assistant (Internship)</h3>
+                        <h4 className="vertical-timeline-element-subtitle">The City Bank Ltd, Gulshan, Dhaka</h4>
                         <p>
-                            Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+                            Worked on core banking software project
                         </p>
                     </VerticalTimelineElement>
-                    {/* <VerticalTimelineElement
-                        className="vertical-timeline-element--work"
-                        contentStyle={{ background: 'gray', color: '#fff' }}
-                        date="2008 - 2010"
-                        iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                        icon={<MdWorkHistory />}
-                    >
-                        <h3 className="vertical-timeline-element-title">Web Designer</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
-                        <p>
-                            User Experience, Visual Design
-                        </p>
-                    </VerticalTimelineElement> */}
-                    {/* <VerticalTimelineElement
-    className="vertical-timeline-element--work"
-    contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    date="2006 - 2008"
-    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-    icon={<MdWorkHistory />}
->
-    <h3 className="vertical-timeline-element-title">Web Designer</h3>
-    <h4 className="vertical-timeline-element-subtitle">San Francisco, CA</h4>
-    <p>
-        User Experience, Visual Design
-    </p>
-</VerticalTimelineElement> */}
+
+
                     <VerticalTimelineElement
                         className="vertical-timeline-element--education"
                         contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-                        date="April 2013"
+                        date="2016-2020"
                         iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                         icon={<IoSchoolSharp />}
                     >
-                        <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
+                        <h3 className="vertical-timeline-element-title">Computer Science & Engineering</h3>
+                        <h4 className="vertical-timeline-element-subtitle">American International University - Bangladesh</h4>
                         <p>
-                            Strategy, Social Media
+                            Graduated with 89% grades
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--education"
-                        // contentStyle={{ background: 'gray', color: '#fff' }}
-                        date="November 2012"
+                        date="2014-2015"
                         iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                         icon={<IoSchoolSharp />}
                     >
-                        <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Certification</h4>
+                        <h3 className="vertical-timeline-element-title">HSC</h3>
+                        <h4 className="vertical-timeline-element-subtitle">Govt. M.M. City College, Khulna</h4>
                         <p>
-                            Creative Direction, User Experience, Visual Design
+                            Passed with 81% grades
                         </p>
                     </VerticalTimelineElement>
                     <VerticalTimelineElement
                         className="vertical-timeline-element--education"
-                        // contentStyle={{ background: 'gray', color: '#fff' }}
-                        date="2002 - 2006"
+                        date="2012-2013"
                         iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
                         icon={<IoSchoolSharp />}
                     >
-                        <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-                        <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
+                        <h3 className="vertical-timeline-element-title">SSC</h3>
+                        <h4 className="vertical-timeline-element-subtitle">Khulna Zilla School, Khulna</h4>
                         <p>
-                            Creative Direction, Visual Design
+                            Passed with 100% grades
                         </p>
                     </VerticalTimelineElement>
-                    
-                    {/* <VerticalTimelineElement
-    iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-    icon={<IoSchoolSharp />}
-/> */}
+
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--certificates"
+                        contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                        date="June-2021"
+                        iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+                        icon={<PiCertificate />}
+                    >
+                        <h3 className="vertical-timeline-element-title">ISTQB® Certified Tester, Foundation Level</h3>
+                        <h4 className="vertical-timeline-element-subtitle">Credential ID 21-CTFL-191151-12</h4>
+                    </VerticalTimelineElement>
+
                 </VerticalTimeline>
             </div>
         </div>

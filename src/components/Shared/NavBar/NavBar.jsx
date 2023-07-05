@@ -7,6 +7,7 @@ import {
     IconButton,
     Card,
 } from "@material-tailwind/react";
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const NavBar = () => {
     const [openNav, setOpenNav] = React.useState(false);
@@ -25,9 +26,9 @@ const NavBar = () => {
                 color="blue-gray"
                 className="p-1 font-normal"
             >
-                <a href="#about" className="flex items-center">
+                <AnchorLink href="#about" className="flex items-center">
                     About
-                </a>
+                </AnchorLink>
             </Typography>
             <Typography
                 as="li"
@@ -35,9 +36,9 @@ const NavBar = () => {
                 color="blue-gray"
                 className="p-1 font-normal"
             >
-                <a href="#resume" className="flex items-center">
+                <AnchorLink href="#resume" className="flex items-center">
                     Resume
-                </a>
+                </AnchorLink>
             </Typography>
             <Typography
                 as="li"
@@ -45,9 +46,9 @@ const NavBar = () => {
                 color="blue-gray"
                 className="p-1 font-normal"
             >
-                <a href="#projects" className="flex items-center">
+                <AnchorLink href="#projects" className="flex items-center">
                     Projects
-                </a>
+                </AnchorLink>
             </Typography>
             <Typography
                 as="li"
@@ -55,9 +56,9 @@ const NavBar = () => {
                 color="blue-gray"
                 className="p-1 font-normal"
             >
-                <a href="#contact" className="flex items-center">
+                <AnchorLink href="#contact" className="flex items-center">
                     Contact
-                </a>
+                </AnchorLink>
             </Typography>
         </ul>
     );
