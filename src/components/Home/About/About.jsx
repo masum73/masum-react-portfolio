@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div id='about' className='mx-auto w-9/12'>
             {/* <h2 className='text-3xl font-semibold'>About Me</h2> */}
-            <Typography className='my-8 text-center' variant="h3" color="blue" textGradient>
+            <Typography className='my-8 text-center' variant="h2" color="blue" textGradient>
                 About Me
             </Typography>
             <Typography className='text-center' variant="lead" color="blue-gray">

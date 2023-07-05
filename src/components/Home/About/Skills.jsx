@@ -276,11 +276,16 @@ const Skills = () => {
 
     return (
         <div className='mx-auto w-9/12'>
-            <Typography className='my-8 text-center' variant="h3" color="blue" textGradient>
+            <Typography className='my-8 text-center' variant="h2" color="blue" textGradient>
                 My Skills
             </Typography>
             <Tabs id="custom-animation" value="testing">
-                <TabsHeader>
+                <TabsHeader
+                    // className="bg-gray-400"
+                    // indicatorProps={{
+                    //     className: "bg-blue-500/10 shadow-none text-blue-500",
+                    // }}
+                >
                     {data.map(({ label, value }) => (
                         <Tab key={value} value={value}>
                             {label}

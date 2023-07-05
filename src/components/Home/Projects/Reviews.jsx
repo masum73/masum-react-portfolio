@@ -26,7 +26,7 @@ import { StarIcon } from "@heroicons/react/24/solid";
 const Reviews = () => {
     return (
         <div className='mx-auto w-9/12'>
-            <Typography className='my-8 text-center' variant="h3" color="blue" textGradient>
+            <Typography className='my-8 text-center' variant="h2" color="blue" textGradient>
                 Reviews
             </Typography>
             {/* <div className='grid grid-cols-1 md:grid-cols-3'>

@@ -8,7 +8,7 @@ import { PiCertificate } from "react-icons/pi";
 const Resume = () => {
     return (
         <div id='resume' className='mx-auto '>
-            <Typography className='my-8 text-center' variant="h3" color="blue" textGradient>
+            <Typography className='my-8 text-center' variant="h2" color="blue" textGradient>
                 Resume
             </Typography>
             <Button onClick={() => window.location.href = 'https://drive.google.com/uc?id=1pEm4RYDCoM86gCvtFrq7XdhJVoK_KxbM&export=download'} color='indigo' className='flex justify-center items-center mx-auto my-8' ripple={true}>Download</Button>

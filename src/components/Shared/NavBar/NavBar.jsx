@@ -24,7 +24,7 @@ const NavBar = () => {
                 as="li"
                 variant="small"
                 color="blue-gray"
-                className="p-1 font-normal"
+                className="p-1 font-medium text-lg"
             >
                 <AnchorLink href="#about" className="flex items-center">
                     About
@@ -34,7 +34,7 @@ const NavBar = () => {
                 as="li"
                 variant="small"
                 color="blue-gray"
-                className="p-1 font-normal"
+                className="p-1 font-medium text-lg"
             >
                 <AnchorLink href="#resume" className="flex items-center">
                     Resume
@@ -44,7 +44,7 @@ const NavBar = () => {
                 as="li"
                 variant="small"
                 color="blue-gray"
-                className="p-1 font-normal"
+                className="p-1 font-medium text-lg"
             >
                 <AnchorLink href="#projects" className="flex items-center">
                     Projects
@@ -54,7 +54,7 @@ const NavBar = () => {
                 as="li"
                 variant="small"
                 color="blue-gray"
-                className="p-1 font-normal"
+                className="p-1 font-medium text-lg"
             >
                 <AnchorLink href="#contact" className="flex items-center">
                     Contact
@@ -64,12 +64,12 @@ const NavBar = () => {
     );
     return (
         <>
-            <Navbar className="sticky top z-10 max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4">
+            <Navbar className="sticky  top-0 z-10 max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4">
                 <div className="flex items-center justify-between text-blue-gray-900">
                     <Typography
                         as="a"
                         href="/"
-                        className="mr-4 cursor-pointer py-1.5 font-medium"
+                        className="mr-4 cursor-pointer py-1.5 font-medium text-lg"
                     >
                         Masum Rahman
                     </Typography>
@@ -80,7 +80,7 @@ const NavBar = () => {
                             <Button
                                 variant="gradient"
                                 size="sm"
-                                className="hidden lg:inline-block"
+                                className="hidden lg:inline-block text-md"
                             >
                                 Hire Me
                             </Button>

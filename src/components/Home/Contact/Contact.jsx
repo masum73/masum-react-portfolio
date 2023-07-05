@@ -12,10 +12,10 @@ import {
 const Contact = () => {
     return (
         <div id='contact' className='mx-auto w-9/12'>
-            <Typography className='my-8 text-center' variant="h3" color="blue" textGradient>
+            <Typography className='my-8 text-center' variant="h2" color="blue" textGradient>
                 Contact Me
             </Typography>
-            <div className="flex gap-4 text-blue-gray-900 sm:justify-center">
+            <div className="flex gap-4 text-blue-gray-900 justify-center items-center">
                 <Typography as="a" href="#" className="opacity-80 transition-opacity hover:opacity-100">
                     <svg className="h-12 w-12" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                         <path
@@ -47,15 +47,13 @@ const Contact = () => {
             </div>
             <div className='mx-auto w-9/12 flex justify-center items-center mb-6'>
                 <Card color="transparent" shadow={false}>
-                    <form className="mt-8 mb-2 w-80 max-w-screen-lg sm:w-96">
+                    <form className="mt-8 mb-2 w-80 max-w-screen-lg sm:w-80">
                         <div className="mb-4 flex flex-col gap-6">
                             <Input size="lg" label="Name" />
                             <Input size="lg" label="Email" />
-                            <div className="w-96">
-                                <Textarea label="Message" />
-                            </div>
+                            <Textarea label="Message" />
                         </div>
-                        <Button className="mt-6" fullWidth>
+                        <Button className="mt-6 font-bold text-md" fullWidth>
                             Send
                         </Button>
 

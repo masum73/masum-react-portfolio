@@ -11,7 +11,7 @@ import {
 const Projects = () => {
     return (
         <div id='projects' className='mx-auto w-9/12'>
-            <Typography className='my-8 text-center' variant="h3" color="blue" textGradient>
+            <Typography className='my-8 text-center' variant="h2" color="blue" textGradient>
                 My Projects
             </Typography>
 
