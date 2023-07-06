@@ -16,7 +16,7 @@ const Contact = () => {
                 Contact Me
             </Typography>
             <div className="flex gap-4 text-blue-gray-900 justify-center items-center">
-                <Typography as="a" href="#" className="opacity-80 transition-opacity hover:opacity-100">
+                <Typography as="a" href="https://github.com/masum73" className="opacity-80 transition-opacity hover:opacity-100">
                     <svg className="h-12 w-12" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                         <path
                             fill-rule="evenodd"
@@ -25,7 +25,7 @@ const Contact = () => {
                         />
                     </svg>
                 </Typography>
-                <Typography as="a" href="#" className="opacity-80 transition-opacity hover:opacity-100">
+                <Typography as="a" href="https://www.linkedin.com/in/masumrahman73/" className="opacity-80 transition-opacity hover:opacity-100">
                     <svg className='h-12 w-12' xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 50 50" aria-hidden="true">
                         <path
                             fill-rule="evenodd"
@@ -35,7 +35,7 @@ const Contact = () => {
                         </path>
                     </svg>
                 </Typography>
-                <Typography as="a" href="#" className="opacity-80 transition-opacity hover:opacity-100">
+                <Typography as="a" href="https://www.facebook.com/masumrahman732" className="opacity-80 transition-opacity hover:opacity-100">
                     <svg className="h-12 w-12" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                         <path
                             fill-rule="evenodd"

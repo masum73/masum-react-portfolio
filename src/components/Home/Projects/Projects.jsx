@@ -30,16 +30,14 @@ const Projects = () => {
                     </CardHeader>
                     <CardBody>
                         <Typography variant="h5" color="blue-gray" className="mb-2">
-                            UI/UX Review Check
+                            Foodaholic
                         </Typography>
-                        <Typography>
-                            The place is close to Barceloneta Beach and bus stop just 2 min by walk
-                            and near to &quot;Naviglio&quot; where you can enjoy the main night life
-                            in Barcelona.
+                        <Typography className='h-24'>
+                            Tailwind, React, Private Route, Firebase,
                         </Typography>
                     </CardBody>
                     <CardFooter className="pt-0 flex justify-evenly items-center">
-                        <Button>Live Demo</Button>
+                       <a href="https://foodaholic-22ee5.web.app/"><Button>Live Demo</Button></a> 
                         <Button>Source Code</Button>
                     </CardFooter>
                 </Card>
@@ -57,16 +55,14 @@ const Projects = () => {
                     </CardHeader>
                     <CardBody>
                         <Typography variant="h5" color="blue-gray" className="mb-2">
-                            UI/UX Review Check
+                            ToyTime
                         </Typography>
                         <Typography>
-                            The place is close to Barceloneta Beach and bus stop just 2 min by walk
-                            and near to &quot;Naviglio&quot; where you can enjoy the main night life
-                            in Barcelona.
+                            Tailwind, React, Private Route, Firebase, MongoDB
                         </Typography>
                     </CardBody>
                     <CardFooter className="pt-0 flex justify-evenly items-center">
-                        <Button>Live Demo</Button>
+                       <a href="https://toy-time.web.app/"><Button>Live Demo</Button></a>
                         <Button>Source Code</Button>
                     </CardFooter>
                 </Card>

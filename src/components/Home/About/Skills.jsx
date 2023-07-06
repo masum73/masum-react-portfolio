@@ -281,7 +281,7 @@ const Skills = () => {
             </Typography>
             <Tabs id="custom-animation" value="testing">
                 <TabsHeader
-                    // className="bg-gray-400"
+                    className="-z-10"
                     // indicatorProps={{
                     //     className: "bg-blue-500/10 shadow-none text-blue-500",
                     // }}
