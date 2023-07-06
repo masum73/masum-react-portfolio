@@ -43,7 +43,7 @@ const Contact = () => {
           })
     }
     return (
-        <div id='contact' className='mx-auto w-9/12'>
+        <div id='contact' className='mx-auto w-9/12 pt-12'>
             <Typography className='my-8 text-center' variant="h2" color="blue" textGradient>
                 Contact Me
             </Typography>

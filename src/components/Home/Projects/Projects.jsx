@@ -7,10 +7,16 @@ import {
     Typography,
     Button
 } from "@material-tailwind/react";
+import {
+    Menu,
+    MenuHandler,
+    MenuList,
+    MenuItem,
+  } from "@material-tailwind/react";
 
 const Projects = () => {
     return (
-        <div id='projects' className='mx-auto w-9/12'>
+        <div id='projects' className='mx-auto w-9/12 pt-12'>
             <Typography className='my-8 text-center' variant="h2" color="blue" textGradient>
                 My Projects
             </Typography>
@@ -32,13 +38,26 @@ const Projects = () => {
                         <Typography variant="h5" color="blue-gray" className="mb-2">
                             Foodaholic
                         </Typography>
-                        <Typography className='h-24'>
-                            Tailwind, React, Private Route, Firebase,
+                        <Typography className='h-32'>
+                            Bootstrap, React Bootstrap, Firebase Login (Email-Password,Google, GitHub), React Route, Private Route, React Lazy Load, React Toastify, React to PDF, Cors, Express Js
                         </Typography>
                     </CardBody>
                     <CardFooter className="pt-0 flex justify-evenly items-center">
-                       <a href="https://foodaholic-22ee5.web.app/"><Button>Live Demo</Button></a> 
-                        <Button>Source Code</Button>
+                        <a href="https://foodaholic-22ee5.web.app/"><Button>Live Demo</Button></a>
+                        <Menu
+                            animate={{
+                                mount: { y: 0 },
+                                unmount: { y: 25 },
+                            }}
+                        >
+                            <MenuHandler>
+                                <Button>Source Code</Button>
+                            </MenuHandler>
+                            <MenuList>
+                                <a href="https://github.com/masum73/chef-recipe-hunter-client"><MenuItem>Front-end</MenuItem></a> 
+                               <a href="https://github.com/masum73/chef-recipe-hunter-server"><MenuItem>Back-end</MenuItem></a> 
+                            </MenuList>
+                        </Menu>
                     </CardFooter>
                 </Card>
                 <Card className="max-w-[24rem] overflow-hidden">
@@ -57,13 +76,26 @@ const Projects = () => {
                         <Typography variant="h5" color="blue-gray" className="mb-2">
                             ToyTime
                         </Typography>
-                        <Typography>
-                            Tailwind, React, Private Route, Firebase, MongoDB
+                        <Typography className='h-32'>
+                            Material Tailwind, React, React Route, Private Route, Firebase (Email-Password,Google), React Tabs, React Helmet, Hero Icons, Sweet Alert 2, Aos, Cors, Dotenv, Express Js, CRUD, MongoDB
                         </Typography>
                     </CardBody>
                     <CardFooter className="pt-0 flex justify-evenly items-center">
-                       <a href="https://toy-time.web.app/"><Button>Live Demo</Button></a>
-                        <Button>Source Code</Button>
+                        <a href="https://toy-time.web.app/"><Button>Live Demo</Button></a>
+                        <Menu
+                            animate={{
+                                mount: { y: 0 },
+                                unmount: { y: 25 },
+                            }}
+                        >
+                            <MenuHandler>
+                                <Button>Source Code</Button>
+                            </MenuHandler>
+                            <MenuList>
+                                <a href="https://github.com/masum73/toy-marketplace-client"><MenuItem>Front-end</MenuItem></a> 
+                               <a href="https://github.com/masum73/toy-marketplace-server"><MenuItem>Back-end</MenuItem></a> 
+                            </MenuList>
+                        </Menu>
                     </CardFooter>
                 </Card>
                 <Card className="max-w-[24rem] overflow-hidden">

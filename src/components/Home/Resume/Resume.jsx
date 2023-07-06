@@ -7,7 +7,7 @@ import { IoSchoolSharp } from "react-icons/io5";
 import { PiCertificate } from "react-icons/pi";
 const Resume = () => {
     return (
-        <div id='resume' className='mx-auto '>
+        <div id='resume' className='mx-auto pt-12'>
             <Typography className='my-8 text-center' variant="h2" color="blue" textGradient>
                 Resume
             </Typography>

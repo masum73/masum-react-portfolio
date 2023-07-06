@@ -113,21 +113,21 @@ const Skills = () => {
                 </div>
                 <div className="w-full">
                     <div className="flex items-center justify-between gap-4 mb-2">
-                        <Typography color="Black" variant="h6">Debugging</Typography>
+                        <Typography color="Black" variant="h6">DaisyUI, Material Tailwind, Flowbite, Ant Design</Typography>
                         <Typography color="indigo" variant="h6">90%</Typography>
                     </div>
                     <Progress value={90} />
                 </div>
                 <div className="w-full">
                     <div className="flex items-center justify-between gap-4 mb-2">
-                        <Typography color="Black" variant="h6">JavaScript</Typography>
+                        <Typography color="Black" variant="h6">JavaScript, DOM, ES6</Typography>
                         <Typography color="indigo" variant="h6">85%</Typography>
                     </div>
                     <Progress value={85} />
                 </div>
                 <div className="w-full">
                     <div className="flex items-center justify-between gap-4 mb-2">
-                        <Typography color="Black" variant="h6">React JS</Typography>
+                        <Typography color="Black" variant="h6">React, Router, Hooks, Context API</Typography>
                         <Typography color="indigo" variant="h6">85%</Typography>
                     </div>
                     <Progress value={85} />
@@ -138,13 +138,13 @@ const Skills = () => {
             label: "Back-End",
             value: "back-end",
             desc: <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
-                <div className="w-full">
+                {/* <div className="w-full">
                     <div className="flex items-center justify-between gap-4 mb-2">
                         <Typography color="Black" variant="h6">NPM</Typography>
                         <Typography color="indigo" variant="h6">70%</Typography>
                     </div>
                     <Progress value={70} />
-                </div>
+                </div> */}
                 <div className="w-full">
                     <div className="flex items-center justify-between gap-4 mb-2">
                         <Typography color="Black" variant="h6">Node JS</Typography>
@@ -193,6 +193,13 @@ const Skills = () => {
                         <Typography color="indigo" variant="h6">70%</Typography>
                     </div>
                     <Progress value={70} />
+                </div>
+                <div className="w-full">
+                    <div className="flex items-center justify-between gap-4 mb-2">
+                        <Typography color="Black" variant="h6">Cors, Dotenv</Typography>
+                        <Typography color="indigo" variant="h6">85%</Typography>
+                    </div>
+                    <Progress value={85} />
                 </div>
             </div>,
         },
@@ -281,7 +288,7 @@ const Skills = () => {
             </Typography>
             <Tabs id="custom-animation" value="testing">
                 <TabsHeader
-                    className="-z-10"
+                    // className="-z-30"
                     // indicatorProps={{
                     //     className: "bg-blue-500/10 shadow-none text-blue-500",
                     // }}
