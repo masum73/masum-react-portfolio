@@ -64,14 +64,16 @@ const NavBar = () => {
     );
     return (
         <>
-            <Navbar className="sticky  top-0 z-10 max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4">
+            <Navbar className="sticky  top-0 z-30 max-w-full rounded-none py-2 px-4 lg:px-8 lg:py-4">
                 <div className="flex items-center justify-between text-blue-gray-900">
                     <Typography
-                        as="a"
-                        href="/"
+                        // as="a"
+                        // href="#"
                         className="mr-4 cursor-pointer py-1.5 font-medium text-lg"
                     >
-                        Masum Rahman
+                        <AnchorLink href="#banner" className="flex items-center">
+                            Masum Rahman
+                        </AnchorLink>
                     </Typography>
                     <div className="flex items-center gap-4">
                         <div className="mr-4 hidden lg:block">{navList}</div>

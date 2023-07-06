@@ -18,7 +18,7 @@ const Banner = () => {
     }, []);
 
     return (
-        <div>
+        <div id='banner'>
             <Particles
                 height='85vh'
                 id="tsparticles"
