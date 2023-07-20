@@ -12,7 +12,7 @@ import {
     MenuHandler,
     MenuList,
     MenuItem,
-  } from "@material-tailwind/react";
+} from "@material-tailwind/react";
 
 const Projects = () => {
     return (
@@ -54,8 +54,8 @@ const Projects = () => {
                                 <Button>Source Code</Button>
                             </MenuHandler>
                             <MenuList>
-                                <a href="https://github.com/masum73/chef-recipe-hunter-client"><MenuItem>Front-end</MenuItem></a> 
-                               <a href="https://github.com/masum73/chef-recipe-hunter-server"><MenuItem>Back-end</MenuItem></a> 
+                                <a href="https://github.com/masum73/chef-recipe-hunter-client"><MenuItem>Front-end</MenuItem></a>
+                                <a href="https://github.com/masum73/chef-recipe-hunter-server"><MenuItem>Back-end</MenuItem></a>
                             </MenuList>
                         </Menu>
                     </CardFooter>
@@ -92,8 +92,8 @@ const Projects = () => {
                                 <Button>Source Code</Button>
                             </MenuHandler>
                             <MenuList>
-                                <a href="https://github.com/masum73/toy-marketplace-client"><MenuItem>Front-end</MenuItem></a> 
-                               <a href="https://github.com/masum73/toy-marketplace-server"><MenuItem>Back-end</MenuItem></a> 
+                                <a href="https://github.com/masum73/toy-marketplace-client"><MenuItem>Front-end</MenuItem></a>
+                                <a href="https://github.com/masum73/toy-marketplace-server"><MenuItem>Back-end</MenuItem></a>
                             </MenuList>
                         </Menu>
                     </CardFooter>
@@ -112,12 +112,10 @@ const Projects = () => {
                     </CardHeader>
                     <CardBody>
                         <Typography variant="h5" color="blue-gray" className="mb-2">
-                            UI/UX Review Check
+                            Musical Melody
                         </Typography>
                         <Typography>
-                            The place is close to Barceloneta Beach and bus stop just 2 min by walk
-                            and near to &quot;Naviglio&quot; where you can enjoy the main night life
-                            in Barcelona.
+                            Material Tailwind, React, React Route, Private Route, Firebase (Email-Password,Google), Axios, React Query, Sweet Alert 2 and many more.
                         </Typography>
                     </CardBody>
                     <CardFooter className="pt-0 flex justify-evenly items-center">
