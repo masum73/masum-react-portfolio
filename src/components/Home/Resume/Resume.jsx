@@ -11,7 +11,7 @@ const Resume = () => {
             <Typography className='my-8 text-center' variant="h2" color="blue" textGradient>
                 Resume
             </Typography>
-            <Button onClick={() => window.location.href = 'https://drive.google.com/uc?id=1pEm4RYDCoM86gCvtFrq7XdhJVoK_KxbM&export=download'} color='indigo' className='flex justify-center items-center mx-auto my-8' ripple={true}>Download</Button>
+            <Button onClick={() => window.location.href = 'https://drive.google.com/uc?id=1acxZxdqLgBe0L0ceAd83yVaWCcbjEvKE&export=download'} color='indigo' className='flex justify-center items-center mx-auto my-8' ripple={true}>Download</Button>
 
             <div className='px-5' style={{ backgroundColor: "#808080" }}>
                 <VerticalTimeline>
