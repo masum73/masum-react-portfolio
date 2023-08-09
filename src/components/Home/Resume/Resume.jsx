@@ -98,6 +98,17 @@ const Resume = () => {
                     <VerticalTimelineElement
                         className="vertical-timeline-element--certificates"
                         contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                        date="August-2023"
+                        iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
+                        icon={<PiCertificate />}
+                    >
+                        <h3 className="vertical-timeline-element-title">Complete Web Development Course With Jhankar Mahbub</h3>
+                        <h4 className="vertical-timeline-element-subtitle">By Programming Hero</h4>
+                    </VerticalTimelineElement>
+
+                    <VerticalTimelineElement
+                        className="vertical-timeline-element--certificates"
+                        contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                         date="June-2021"
                         iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
                         icon={<PiCertificate />}
@@ -105,7 +116,7 @@ const Resume = () => {
                         <h3 className="vertical-timeline-element-title">ISTQB® Certified Tester, Foundation Level</h3>
                         <h4 className="vertical-timeline-element-subtitle">Credential ID 21-CTFL-191151-12</h4>
                     </VerticalTimelineElement>
-
+                    
                 </VerticalTimeline>
             </div>
         </div>
