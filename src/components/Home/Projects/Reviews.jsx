@@ -211,7 +211,7 @@ const Reviews = () => {
                             <div className="flex w-full flex-col gap-0.5">
                                 <div className="flex items-center justify-between">
                                     <Typography variant="h5" color="blue-gray">
-                                        Candice Wu
+                                        Sabrina Hossain
                                     </Typography>
                                     <div className="5 flex items-center gap-0">
                                         <StarIcon className="h-5 w-5 text-yellow-700" />
@@ -221,14 +221,12 @@ const Reviews = () => {
                                         <StarIcon className="h-5 w-5 text-yellow-700" />
                                     </div>
                                 </div>
-                                <Typography color="blue-gray">Frontend Lead @ Google</Typography>
+                                <Typography color="blue-gray">Principle SQA Engineer @ ReliSource</Typography>
                             </div>
                         </CardHeader>
                         <CardBody className="mb-6 p-0">
                             <Typography>
-                                &quot;I found solution to all my design needs from Creative Tim. I use
-                                them as a freelancer in my hobby projects for fun! And its really
-                                affordable, very humble guys !!!&quot;
+                            Your time-management skills and ability to understand your limits while also going the extra mile show me that you will be a great asset to our team for a long time!
                             </Typography>
                         </CardBody>
                     </Card>
