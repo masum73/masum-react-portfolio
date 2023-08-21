@@ -45,7 +45,7 @@ const Reviews = () => {
                 slidesPerView={3}
             >
                 <SwiperSlide>
-                    <Card color="gray" shadow={false} className="w-[26rem] px-8 py-5 mt-5 mb-16">
+                    <Card color="gray" shadow={false} className="w-[26rem] h-[24rem] px-8 py-5 mt-5 mb-16">
                         <CardHeader
                             color="transparent"
                             floated={false}
@@ -82,7 +82,7 @@ const Reviews = () => {
                     </Card>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Card color="gray" shadow={false} className="w-[26rem] px-8 py-5 mt-5 mb-16">
+                    <Card color="gray" shadow={false} className="w-[26rem] h-[24rem] px-8 py-5 mt-5 mb-16">
                         <CardHeader
                             color="transparent"
                             floated={false}
@@ -119,7 +119,7 @@ const Reviews = () => {
                     </Card>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Card color="gray" shadow={false} className="w-[26rem] px-8 py-5 mt-5 mb-16">
+                    <Card color="gray" shadow={false} className="w-[26rem] h-[24rem] px-8 py-5 mt-5 mb-16">
                         <CardHeader
                             color="transparent"
                             floated={false}
@@ -156,7 +156,7 @@ const Reviews = () => {
                     </Card>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Card color="gray" shadow={false} className="w-[26rem] px-8 py-5 mt-5 mb-16">
+                    <Card color="gray" shadow={false} className="w-[26rem] h-[24rem] px-8 py-5 mt-5 mb-16">
                         <CardHeader
                             color="transparent"
                             floated={false}
@@ -193,7 +193,7 @@ const Reviews = () => {
                     </Card>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <Card color="gray" shadow={false} className="w-[26rem] px-8 py-5 mt-5 mb-16">
+                    <Card color="gray" shadow={false} className="w-[26rem] h-[24rem] px-8 py-5 mt-5 mb-16">
                         <CardHeader
                             color="transparent"
                             floated={false}
