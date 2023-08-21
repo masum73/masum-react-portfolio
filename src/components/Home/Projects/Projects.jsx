@@ -119,8 +119,21 @@ const Projects = () => {
                         </Typography>
                     </CardBody>
                     <CardFooter className="pt-0 flex justify-evenly items-center">
-                        <Button>Live Demo</Button>
-                        <Button>Source Code</Button>
+                    <a href="https://musical-melody-f0fea.web.app/"><Button>Live Demo</Button></a>
+                        <Menu
+                            animate={{
+                                mount: { y: 0 },
+                                unmount: { y: 25 },
+                            }}
+                        >
+                            <MenuHandler>
+                                <Button>Source Code</Button>
+                            </MenuHandler>
+                            <MenuList>
+                                <a href="https://github.com/masum73/summer-camp-client.git"><MenuItem>Front-end</MenuItem></a>
+                                <a href="https://github.com/masum73/summer-camp-server.git"><MenuItem>Back-end</MenuItem></a>
+                            </MenuList>
+                        </Menu>
                     </CardFooter>
                 </Card>
             </div>
