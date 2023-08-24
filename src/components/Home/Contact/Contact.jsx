@@ -22,8 +22,6 @@ const Contact = () => {
         const email = event.target.email.value;
         const message = event.target.message.value;
 
-        // console.log(name, email, message);
-
         const templateParam = {
             from_name: name,
             from_email: email,
