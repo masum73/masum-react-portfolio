@@ -18,7 +18,9 @@ const About = () => {
             <Typography className='my-5' variant="paragraph">
                 Beyond my role as a SQA engineer, I immerse myself in the world of web development by creating robust applications using the MERN (MongoDB, Express.js, React.js, Node.js) stack. The endless possibilities of crafting beautiful and intuitive user experiences drive my curiosity and ambition. I continually strive to expand my skill set and stay up-to-date with the latest industry trends, frameworks, and best practices.
             </Typography>
-
+{/* <p>
+    Lorem ipsum dolor sit amet.
+</p> */}
         </div>
     );
 };
