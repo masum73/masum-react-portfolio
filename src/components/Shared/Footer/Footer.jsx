@@ -1,21 +1,20 @@
-import React from 'react';
+import React from "react";
 import { Typography } from "@material-tailwind/react";
 
 const currentYear = new Date().getFullYear();
 
 const Footer = () => {
-    return (
-        <footer className="relative w-full">
-            <div className="mx-auto w-full px-8">
-                <div className="flex  w-full flex-col items-center justify-center border-t border-blue-gray-50 py-4 md:flex-row md:justify-between">
-                    <Typography
-                        variant="large"
-                        className="mb-4 mx-auto text-center font-normal text-blue-gray-900 md:mb-0"
-                    >
-                        &copy; {currentYear} Masum Rahman. All
-                        Rights Reserved.
-                    </Typography>
-                    {/* <div className="flex gap-4 text-blue-gray-900 sm:justify-center">
+  return (
+    <footer className="relative w-full">
+      <div className="mx-auto w-full px-8">
+        <div className="flex  w-full flex-col items-center justify-center border-t border-blue-gray-50 py-4 md:flex-row md:justify-between">
+          <Typography
+            variant="large"
+            className="mb-4 mx-auto text-center font-normal text-blue-gray-900 md:mb-0"
+          >
+            &copy; {currentYear} Masum. All Rights Reserved.
+          </Typography>
+          {/* <div className="flex gap-4 text-blue-gray-900 sm:justify-center">
                         <Typography as="a" href="#" className="opacity-80 transition-opacity hover:opacity-100">
                             <svg className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                                 <path
@@ -45,11 +44,10 @@ const Footer = () => {
                             </svg>
                         </Typography>
                     </div> */}
-                </div>
-            </div>
-            
-        </footer>
-    );
+        </div>
+      </div>
+    </footer>
+  );
 };
 
 export default Footer;
